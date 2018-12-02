@@ -3,11 +3,11 @@ layout: page
 title: Home
 slides-target: main-slides
 slides: |
-  * ![A](/img/cheap_budget_accomodation_youth_hostel_hotel_stirling_scotland_william_willy_wallace_braveheart_castle_group-3.jpg)
-  * ![B](/img/cheap_budget_accomodation_youth_hostel_hotel_stirling_scotland_william_willy_wallace_braveheart_castle_group-4.jpg)
-  * ![C](/img/cheap_budget_accomodation_youth_hostel_hotel_stirling_scotland_william_willy_wallace_braveheart_castle_group-41.jpg)
-  * ![D](/img/cheap_budget_accomodation_youth_hostel_hotel_stirling_scotland_william_willy_wallace_braveheart_castle_group-1.jpg)
-  * ![E](/img/cheap_budget_accomodation_youth_hostel_hotel_stirling_scotland_william_willy_wallace_braveheart_castle_group-2.jpg)
+  * ![A](/wwh/img/cheap_budget_accomodation_youth_hostel_hotel_stirling_scotland_william_willy_wallace_braveheart_castle_group-3.jpg)
+  * ![B](/wwh/img/cheap_budget_accomodation_youth_hostel_hotel_stirling_scotland_william_willy_wallace_braveheart_castle_group-4.jpg)
+  * ![C](/wwh/img/cheap_budget_accomodation_youth_hostel_hotel_stirling_scotland_william_willy_wallace_braveheart_castle_group-41.jpg)
+  * ![D](/wwh/img/cheap_budget_accomodation_youth_hostel_hotel_stirling_scotland_william_willy_wallace_braveheart_castle_group-1.jpg)
+  * ![E](/wwh/img/cheap_budget_accomodation_youth_hostel_hotel_stirling_scotland_william_willy_wallace_braveheart_castle_group-2.jpg)
 item: 1
 auto: true
 loop: true
