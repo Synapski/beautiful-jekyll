@@ -1,0 +1,29 @@
+{% assign item = include.item | page.item %}
+{% assign mode = include.mode | page.mode %}
+
+{% if include.target %}
+{% assign target = include.target %}
+{% else %}
+{% assign target = page.slides-target %}
+<div class="{{ page.slides-target }}">
+  {{ page.slides | markdownify }}
+</div>
+{% endif %}
+
+<script type="text/javascript"> 
+    $(document).ready(function() {
+      $(".{{ target }} ul").lightSlider({
+        "item": {{ item | default: 1 }},
+        "loop": {{ page.loop | default: false }},
+        "mode": "{{ mode | default: 'fade' }}",
+        "speed": {{ page.speed | default: 1200 }},
+        "pause": {{ page.pause | default: 3000 }},
+        "vertical": {{ page.vertical | default: false }},
+        "auto": {{ page.auto | default: false }},
+        "pauseOnHover": {{ page.pauseOnHover | default: false }},
+        "pager": {{ page.pager | default: true }},
+        "controls": {{ page.cotrols | default: true }},
+        "adaptiveHeight": {{ page.adaptiveHeight | default: false }}
+      });
+    });
+</script>
